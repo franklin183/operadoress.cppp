@@ -15,4 +15,4 @@ int main(){
     cout << " metros " << metros << endl;
 
 return 0;
-}
+} // REALIZAR LA TRANSFORMACION DE YARDAS A PULGADAS
