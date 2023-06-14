@@ -21,7 +21,7 @@ int main(){
     else
     {
         x = (c * e - b * f) / denominador;
-        y = (a * f - c * d) / denominador;
+        y = 3*(a * f - c * d) / denominador;
         cout << " la solucion del sistema es\n";
         cout << " x = " << x << " y = " << y << endl;
     }
