@@ -1,9 +1,17 @@
 #include <iostream>
 using namespace std;
 int main(){
-    
-    for (int cuenta = 1; cuenta < 5; cuenta++)
-    cout << (2 * cuenta) << " ";
-    return 0; 
+    int n, i = 1, suma = 0;
+    do
+    {
+        cout << " valor de n > 0: ";
+        cin >> n;
+    } while (n <= 0);
+    while (i <= n){
+        suma += i;
+        i++;
+    }
+    cout << " valor de la suma: "<< suma << endl ;
+    system("PAUSE");
+    return EXIT_SUCCESS;
 }
-// el resultado es 2,4,6,8//
